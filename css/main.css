@@ -922,7 +922,7 @@ html .process img {
 		width: 100%; max-width: 54px; margin: 0; margin-bottom: 14px;
 		}
 	.fun-fact h4 { 
-		max-width: 140px; margin: 0 auto; font-size: 13px; line-height: 1.4; font-weight: 300; letter-spacing: .02em; text-transform: uppercase; 
+		max-width: 140px; margin: 0 auto; font-size: 13px; line-height: 1.4; font-weight: 300; letter-spacing: .02em; text-transform: lowercase; 
 		}
 
 /* CLIENT */
