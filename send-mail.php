@@ -1,7 +1,7 @@
 <?php
 
 	// site owner
-	$site_name = 'unRovr HTML5 Template';
+	$site_name = 'YelChannel';
 	$sender_domain = 'server@your-domain.com';
 	$to = 'jonhdoeeee@jonhdoe.com';
 	
