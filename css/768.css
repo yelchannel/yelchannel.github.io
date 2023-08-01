@@ -254,8 +254,13 @@
 		padding: 20px 80px 120px; min-height: 200px;
 		}
 	.card-nav ul li {
-		margin: 0 11px;
+		'margin: 0 11px;
+		margin: 0;
 		}
+	.card-nav ul li a {
+		background-color: transparent; padding: 0 10px;
+	'margin: auto;
+	}
 	.card-nav ul li i {
 		font-size: 28px;
 		}

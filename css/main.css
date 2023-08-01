@@ -537,7 +537,7 @@ textarea,
 .card-3d-right-side:after,
 .card-3d-bottom-side:after,
 .header:before {
-	content: ""; position: absolute; z-index: 5; top: 0; left: 0; right: 0; bottom: 0; background: #0d3d6d; opacity: .2;
+	content: ""; position: absolute; z-index: 5; top: 0; left: 0; right: 0; bottom: 0; background: transparent; opacity: .2;
 	}
 
 
@@ -550,7 +550,7 @@ textarea,
 	padding: 0; margin: 0; list-style: none;
 	}
 .card-nav ul li {
-	display: inline-block; margin: 0 4px; text-align: center; 
+	display: inline-block; margin: 0; text-align: center;
     transform: scale(.7); opacity: 0; visibility: hidden; -webkit-transition: all 0.5s ease-out; transition: all 0.5s ease;
 	}
 .is-card-opened .card-nav ul li {
@@ -578,8 +578,11 @@ textarea,
 	transition-delay: 1.1s;
 	}
 .card-nav ul li a {
-	position: relative;	transition: color 0.7s; display: block; font-weight: 400; color: #fff; text-transform: uppercase; font-size: 10px; letter-spacing: 1px;
+	position: relative;	transition: color 0.7s; display: block; font-weight: 400; color: #a8a8a8; text-transform: uppercase; font-size: 10px; letter-spacing: 1px;
 	}
+.card-nav ul li a:hover{
+	color: #e35774; transition: all .3s ease-out; -webkit-transition: all .5s ease-out; border-radius: 10px;
+}
 .card-nav ul li i {
 	display: block; font-size: 24px;
 	}
